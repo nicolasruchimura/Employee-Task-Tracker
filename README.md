@@ -13,7 +13,7 @@ Code Flow
 
         Submits a task via the HTML form (index.html).
 
-        Clicks "X" to delete a task.
+        Clicks "Delete" to delete a task.
 
     Backend Logic (app.py):
 
