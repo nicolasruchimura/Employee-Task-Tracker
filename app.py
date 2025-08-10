@@ -1,10 +1,10 @@
-from Flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request, redirect
 import sqlite3
 
 app = Flask(__name__)
 
 conn = sqlite3.connect('database.db')
-conn.execute('CREATE TABLE IF NOT EXISTS tasks')
+conn.execute('CREATE TABLE IF NOT EXISTS tasks (id INTEGER PRIMARY KEY, task TEXT)')
 conn.close()
 
 @app.route('/')
