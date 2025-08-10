@@ -1,4 +1,4 @@
-#Employees Tasks Tracker
+# Employees Tasks Tracker
 1. Purpose: create a simple web-based task management tool for small teams, allowing employees to add and delete tasks.
 2. Technologies used:
         - Frontend: HTML, CSS, JavaScript (Vanilla)
